@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HW3Tests' target in the 'HW3Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

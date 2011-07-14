@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ArrayTests' target in the 'ArrayTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

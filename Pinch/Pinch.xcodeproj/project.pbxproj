@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B1176C13CB206500B49751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1176B13CB206500B49751 /* UIKit.framework */; };
+		84B1176E13CB206500B49751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1176D13CB206500B49751 /* Foundation.framework */; };
+		84B1177013CB206500B49751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1176F13CB206500B49751 /* CoreGraphics.framework */; };
+		84B1177613CB206500B49751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B1177413CB206500B49751 /* InfoPlist.strings */; };
+		84B1177913CB206500B49751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1177813CB206500B49751 /* main.m */; };
+		84B1177C13CB206500B49751 /* PinchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1177B13CB206500B49751 /* PinchAppDelegate.m */; };
+		84B1177F13CB206500B49751 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B1177D13CB206500B49751 /* MainWindow.xib */; };
+		84B1178613CB206500B49751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1176B13CB206500B49751 /* UIKit.framework */; };
+		84B1178713CB206500B49751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1176D13CB206500B49751 /* Foundation.framework */; };
+		84B1178813CB206500B49751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B1176F13CB206500B49751 /* CoreGraphics.framework */; };
+		84B1179013CB206500B49751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B1178E13CB206500B49751 /* InfoPlist.strings */; };
+		84B1179313CB206500B49751 /* PinchTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84B1179213CB206500B49751 /* PinchTests.h */; };
+		84B1179513CB206500B49751 /* PinchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1179413CB206500B49751 /* PinchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B1178913CB206500B49751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B1175E13CB206400B49751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B1176613CB206500B49751;
+			remoteInfo = Pinch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B1176713CB206500B49751 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B1176B13CB206500B49751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84B1176D13CB206500B49751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84B1176F13CB206500B49751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84B1177313CB206500B49751 /* Pinch-Info.plist */ = {isa = PBXFileReference; path = "Pinch-Info.plist"; sourceTree = "<group>"; };
+		84B1177513CB206500B49751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B1177713CB206500B49751 /* Pinch-Prefix.pch */ = {isa = PBXFileReference; path = "Pinch-Prefix.pch"; sourceTree = "<group>"; };
+		84B1177813CB206500B49751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B1177A13CB206500B49751 /* PinchAppDelegate.h */ = {isa = PBXFileReference; path = PinchAppDelegate.h; sourceTree = "<group>"; };
+		84B1177B13CB206500B49751 /* PinchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchAppDelegate.m; sourceTree = "<group>"; };
+		84B1177E13CB206500B49751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84B1178513CB206500B49751 /* PinchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B1178D13CB206500B49751 /* PinchTests-Info.plist */ = {isa = PBXFileReference; path = "PinchTests-Info.plist"; sourceTree = "<group>"; };
+		84B1178F13CB206500B49751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B1179113CB206500B49751 /* PinchTests-Prefix.pch */ = {isa = PBXFileReference; path = "PinchTests-Prefix.pch"; sourceTree = "<group>"; };
+		84B1179213CB206500B49751 /* PinchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchTests.h; sourceTree = "<group>"; };
+		84B1179413CB206500B49751 /* PinchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B1176413CB206500B49751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1176C13CB206500B49751 /* UIKit.framework in Frameworks */,
+				84B1176E13CB206500B49751 /* Foundation.framework in Frameworks */,
+				84B1177013CB206500B49751 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B1178113CB206500B49751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1178613CB206500B49751 /* UIKit.framework in Frameworks */,
+				84B1178713CB206500B49751 /* Foundation.framework in Frameworks */,
+				84B1178813CB206500B49751 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B1175C13CB206400B49751 = {
+			isa = PBXGroup;
+			children = (
+				84B1177113CB206500B49751 /* Pinch */,
+				84B1178B13CB206500B49751 /* PinchTests */,
+				84B1176A13CB206500B49751 /* Frameworks */,
+				84B1176813CB206500B49751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B1176813CB206500B49751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B1176713CB206500B49751 /* Pinch.app */,
+				84B1178513CB206500B49751 /* PinchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B1176A13CB206500B49751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B1176B13CB206500B49751 /* UIKit.framework */,
+				84B1176D13CB206500B49751 /* Foundation.framework */,
+				84B1176F13CB206500B49751 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B1177113CB206500B49751 /* Pinch */ = {
+			isa = PBXGroup;
+			children = (
+				84B1177A13CB206500B49751 /* PinchAppDelegate.h */,
+				84B1177B13CB206500B49751 /* PinchAppDelegate.m */,
+				84B1177D13CB206500B49751 /* MainWindow.xib */,
+				84B1177213CB206500B49751 /* Supporting Files */,
+			);
+			path = Pinch;
+			sourceTree = "<group>";
+		};
+		84B1177213CB206500B49751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B1177313CB206500B49751 /* Pinch-Info.plist */,
+				84B1177413CB206500B49751 /* InfoPlist.strings */,
+				84B1177713CB206500B49751 /* Pinch-Prefix.pch */,
+				84B1177813CB206500B49751 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B1178B13CB206500B49751 /* PinchTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B1179213CB206500B49751 /* PinchTests.h */,
+				84B1179413CB206500B49751 /* PinchTests.m */,
+				84B1178C13CB206500B49751 /* Supporting Files */,
+			);
+			path = PinchTests;
+			sourceTree = "<group>";
+		};
+		84B1178C13CB206500B49751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B1178D13CB206500B49751 /* PinchTests-Info.plist */,
+				84B1178E13CB206500B49751 /* InfoPlist.strings */,
+				84B1179113CB206500B49751 /* PinchTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B1176613CB206500B49751 /* Pinch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B1179813CB206500B49751 /* Build configuration list for PBXNativeTarget "Pinch" */;
+			buildPhases = (
+				84B1176313CB206500B49751 /* Sources */,
+				84B1176413CB206500B49751 /* Frameworks */,
+				84B1176513CB206500B49751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinch;
+			productName = Pinch;
+			productReference = 84B1176713CB206500B49751 /* Pinch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B1178413CB206500B49751 /* PinchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B1179B13CB206500B49751 /* Build configuration list for PBXNativeTarget "PinchTests" */;
+			buildPhases = (
+				84B1178013CB206500B49751 /* Sources */,
+				84B1178113CB206500B49751 /* Frameworks */,
+				84B1178213CB206500B49751 /* Resources */,
+				84B1178313CB206500B49751 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B1178A13CB206500B49751 /* PBXTargetDependency */,
+			);
+			name = PinchTests;
+			productName = PinchTests;
+			productReference = 84B1178513CB206500B49751 /* PinchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B1175E13CB206400B49751 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84B1176113CB206400B49751 /* Build configuration list for PBXProject "Pinch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B1175C13CB206400B49751;
+			productRefGroup = 84B1176813CB206500B49751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B1176613CB206500B49751 /* Pinch */,
+				84B1178413CB206500B49751 /* PinchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B1176513CB206500B49751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1177613CB206500B49751 /* InfoPlist.strings in Resources */,
+				84B1177F13CB206500B49751 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B1178213CB206500B49751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1179013CB206500B49751 /* InfoPlist.strings in Resources */,
+				84B1179313CB206500B49751 /* PinchTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B1178313CB206500B49751 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B1176313CB206500B49751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1177913CB206500B49751 /* main.m in Sources */,
+				84B1177C13CB206500B49751 /* PinchAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B1178013CB206500B49751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1179513CB206500B49751 /* PinchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B1178A13CB206500B49751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B1176613CB206500B49751 /* Pinch */;
+			targetProxy = 84B1178913CB206500B49751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B1177413CB206500B49751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B1177513CB206500B49751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84B1177D13CB206500B49751 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B1177E13CB206500B49751 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84B1178E13CB206500B49751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B1178F13CB206500B49751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B1179613CB206500B49751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B1179713CB206500B49751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		84B1179913CB206500B49751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinch/Pinch-Prefix.pch";
+				INFOPLIST_FILE = "Pinch/Pinch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84B1179A13CB206500B49751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinch/Pinch-Prefix.pch";
+				INFOPLIST_FILE = "Pinch/Pinch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84B1179C13CB206500B49751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pinch.app/Pinch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchTests/PinchTests-Prefix.pch";
+				INFOPLIST_FILE = "PinchTests/PinchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84B1179D13CB206500B49751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pinch.app/Pinch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchTests/PinchTests-Prefix.pch";
+				INFOPLIST_FILE = "PinchTests/PinchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B1176113CB206400B49751 /* Build configuration list for PBXProject "Pinch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1179613CB206500B49751 /* Debug */,
+				84B1179713CB206500B49751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B1179813CB206500B49751 /* Build configuration list for PBXNativeTarget "Pinch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1179913CB206500B49751 /* Debug */,
+				84B1179A13CB206500B49751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84B1179B13CB206500B49751 /* Build configuration list for PBXNativeTarget "PinchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1179C13CB206500B49751 /* Debug */,
+				84B1179D13CB206500B49751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B1175E13CB206400B49751 /* Project object */;
+}

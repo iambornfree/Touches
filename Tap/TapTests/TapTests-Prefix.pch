@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TapTests' target in the 'TapTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
