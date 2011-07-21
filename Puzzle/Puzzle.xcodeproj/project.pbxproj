@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8414ADF313D5AD9800DDA477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414ADF213D5AD9800DDA477 /* UIKit.framework */; };
+		8414ADF513D5AD9800DDA477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414ADF413D5AD9800DDA477 /* Foundation.framework */; };
+		8414ADF713D5AD9800DDA477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414ADF613D5AD9800DDA477 /* CoreGraphics.framework */; };
+		8414ADFD13D5AD9800DDA477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8414ADFB13D5AD9800DDA477 /* InfoPlist.strings */; };
+		8414AE0013D5AD9800DDA477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414ADFF13D5AD9800DDA477 /* main.m */; };
+		8414AE0313D5AD9900DDA477 /* PuzzleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414AE0213D5AD9900DDA477 /* PuzzleAppDelegate.m */; };
+		8414AE0613D5AD9900DDA477 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8414AE0413D5AD9900DDA477 /* MainWindow.xib */; };
+		8414AE0D13D5AD9900DDA477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414ADF213D5AD9800DDA477 /* UIKit.framework */; };
+		8414AE0E13D5AD9900DDA477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414ADF413D5AD9800DDA477 /* Foundation.framework */; };
+		8414AE0F13D5AD9900DDA477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414ADF613D5AD9800DDA477 /* CoreGraphics.framework */; };
+		8414AE1713D5AD9900DDA477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8414AE1513D5AD9900DDA477 /* InfoPlist.strings */; };
+		8414AE1A13D5AD9900DDA477 /* PuzzleTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8414AE1913D5AD9900DDA477 /* PuzzleTests.h */; };
+		8414AE1C13D5AD9900DDA477 /* PuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414AE1B13D5AD9900DDA477 /* PuzzleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8414AE1013D5AD9900DDA477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8414ADE513D5AD9800DDA477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8414ADED13D5AD9800DDA477;
+			remoteInfo = Puzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8414ADEE13D5AD9800DDA477 /* Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414ADF213D5AD9800DDA477 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8414ADF413D5AD9800DDA477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8414ADF613D5AD9800DDA477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8414ADFA13D5AD9800DDA477 /* Puzzle-Info.plist */ = {isa = PBXFileReference; path = "Puzzle-Info.plist"; sourceTree = "<group>"; };
+		8414ADFC13D5AD9800DDA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8414ADFE13D5AD9800DDA477 /* Puzzle-Prefix.pch */ = {isa = PBXFileReference; path = "Puzzle-Prefix.pch"; sourceTree = "<group>"; };
+		8414ADFF13D5AD9800DDA477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8414AE0113D5AD9900DDA477 /* PuzzleAppDelegate.h */ = {isa = PBXFileReference; path = PuzzleAppDelegate.h; sourceTree = "<group>"; };
+		8414AE0213D5AD9900DDA477 /* PuzzleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleAppDelegate.m; sourceTree = "<group>"; };
+		8414AE0513D5AD9900DDA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8414AE0C13D5AD9900DDA477 /* PuzzleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414AE1413D5AD9900DDA477 /* PuzzleTests-Info.plist */ = {isa = PBXFileReference; path = "PuzzleTests-Info.plist"; sourceTree = "<group>"; };
+		8414AE1613D5AD9900DDA477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8414AE1813D5AD9900DDA477 /* PuzzleTests-Prefix.pch */ = {isa = PBXFileReference; path = "PuzzleTests-Prefix.pch"; sourceTree = "<group>"; };
+		8414AE1913D5AD9900DDA477 /* PuzzleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzleTests.h; sourceTree = "<group>"; };
+		8414AE1B13D5AD9900DDA477 /* PuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8414ADEB13D5AD9800DDA477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414ADF313D5AD9800DDA477 /* UIKit.framework in Frameworks */,
+				8414ADF513D5AD9800DDA477 /* Foundation.framework in Frameworks */,
+				8414ADF713D5AD9800DDA477 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414AE0813D5AD9900DDA477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414AE0D13D5AD9900DDA477 /* UIKit.framework in Frameworks */,
+				8414AE0E13D5AD9900DDA477 /* Foundation.framework in Frameworks */,
+				8414AE0F13D5AD9900DDA477 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8414ADE313D5AD9800DDA477 = {
+			isa = PBXGroup;
+			children = (
+				8414ADF813D5AD9800DDA477 /* Puzzle */,
+				8414AE1213D5AD9900DDA477 /* PuzzleTests */,
+				8414ADF113D5AD9800DDA477 /* Frameworks */,
+				8414ADEF13D5AD9800DDA477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8414ADEF13D5AD9800DDA477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8414ADEE13D5AD9800DDA477 /* Puzzle.app */,
+				8414AE0C13D5AD9900DDA477 /* PuzzleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8414ADF113D5AD9800DDA477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8414ADF213D5AD9800DDA477 /* UIKit.framework */,
+				8414ADF413D5AD9800DDA477 /* Foundation.framework */,
+				8414ADF613D5AD9800DDA477 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8414ADF813D5AD9800DDA477 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				8414AE0113D5AD9900DDA477 /* PuzzleAppDelegate.h */,
+				8414AE0213D5AD9900DDA477 /* PuzzleAppDelegate.m */,
+				8414AE0413D5AD9900DDA477 /* MainWindow.xib */,
+				8414ADF913D5AD9800DDA477 /* Supporting Files */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		8414ADF913D5AD9800DDA477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8414ADFA13D5AD9800DDA477 /* Puzzle-Info.plist */,
+				8414ADFB13D5AD9800DDA477 /* InfoPlist.strings */,
+				8414ADFE13D5AD9800DDA477 /* Puzzle-Prefix.pch */,
+				8414ADFF13D5AD9800DDA477 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8414AE1213D5AD9900DDA477 /* PuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8414AE1913D5AD9900DDA477 /* PuzzleTests.h */,
+				8414AE1B13D5AD9900DDA477 /* PuzzleTests.m */,
+				8414AE1313D5AD9900DDA477 /* Supporting Files */,
+			);
+			path = PuzzleTests;
+			sourceTree = "<group>";
+		};
+		8414AE1313D5AD9900DDA477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8414AE1413D5AD9900DDA477 /* PuzzleTests-Info.plist */,
+				8414AE1513D5AD9900DDA477 /* InfoPlist.strings */,
+				8414AE1813D5AD9900DDA477 /* PuzzleTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8414ADED13D5AD9800DDA477 /* Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414AE1F13D5AD9900DDA477 /* Build configuration list for PBXNativeTarget "Puzzle" */;
+			buildPhases = (
+				8414ADEA13D5AD9800DDA477 /* Sources */,
+				8414ADEB13D5AD9800DDA477 /* Frameworks */,
+				8414ADEC13D5AD9800DDA477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzle;
+			productName = Puzzle;
+			productReference = 8414ADEE13D5AD9800DDA477 /* Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8414AE0B13D5AD9900DDA477 /* PuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414AE2213D5AD9900DDA477 /* Build configuration list for PBXNativeTarget "PuzzleTests" */;
+			buildPhases = (
+				8414AE0713D5AD9900DDA477 /* Sources */,
+				8414AE0813D5AD9900DDA477 /* Frameworks */,
+				8414AE0913D5AD9900DDA477 /* Resources */,
+				8414AE0A13D5AD9900DDA477 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8414AE1113D5AD9900DDA477 /* PBXTargetDependency */,
+			);
+			name = PuzzleTests;
+			productName = PuzzleTests;
+			productReference = 8414AE0C13D5AD9900DDA477 /* PuzzleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8414ADE513D5AD9800DDA477 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8414ADE813D5AD9800DDA477 /* Build configuration list for PBXProject "Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8414ADE313D5AD9800DDA477;
+			productRefGroup = 8414ADEF13D5AD9800DDA477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8414ADED13D5AD9800DDA477 /* Puzzle */,
+				8414AE0B13D5AD9900DDA477 /* PuzzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8414ADEC13D5AD9800DDA477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414ADFD13D5AD9800DDA477 /* InfoPlist.strings in Resources */,
+				8414AE0613D5AD9900DDA477 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414AE0913D5AD9900DDA477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414AE1713D5AD9900DDA477 /* InfoPlist.strings in Resources */,
+				8414AE1A13D5AD9900DDA477 /* PuzzleTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8414AE0A13D5AD9900DDA477 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8414ADEA13D5AD9800DDA477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414AE0013D5AD9800DDA477 /* main.m in Sources */,
+				8414AE0313D5AD9900DDA477 /* PuzzleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414AE0713D5AD9900DDA477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414AE1C13D5AD9900DDA477 /* PuzzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8414AE1113D5AD9900DDA477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8414ADED13D5AD9800DDA477 /* Puzzle */;
+			targetProxy = 8414AE1013D5AD9900DDA477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8414ADFB13D5AD9800DDA477 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414ADFC13D5AD9800DDA477 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8414AE0413D5AD9900DDA477 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414AE0513D5AD9900DDA477 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8414AE1513D5AD9900DDA477 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414AE1613D5AD9900DDA477 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8414AE1D13D5AD9900DDA477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8414AE1E13D5AD9900DDA477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8414AE2013D5AD9900DDA477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8414AE2113D5AD9900DDA477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8414AE2313D5AD9900DDA477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzle.app/Puzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PuzzleTests/PuzzleTests-Prefix.pch";
+				INFOPLIST_FILE = "PuzzleTests/PuzzleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8414AE2413D5AD9900DDA477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzzle.app/Puzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PuzzleTests/PuzzleTests-Prefix.pch";
+				INFOPLIST_FILE = "PuzzleTests/PuzzleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8414ADE813D5AD9800DDA477 /* Build configuration list for PBXProject "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414AE1D13D5AD9900DDA477 /* Debug */,
+				8414AE1E13D5AD9900DDA477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414AE1F13D5AD9900DDA477 /* Build configuration list for PBXNativeTarget "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414AE2013D5AD9900DDA477 /* Debug */,
+				8414AE2113D5AD9900DDA477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8414AE2213D5AD9900DDA477 /* Build configuration list for PBXNativeTarget "PuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414AE2313D5AD9900DDA477 /* Debug */,
+				8414AE2413D5AD9900DDA477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8414ADE513D5AD9800DDA477 /* Project object */;
+}
